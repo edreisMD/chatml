@@ -5,7 +5,7 @@ Chat Markup Language is an structured "API" interface between software applicati
 This repository aims to b uild an easy implementation of Chat Markup Language (as defined by OpenAI).
 
 ### API Request
-An API request to LLMs should look like this ([Example from OpenAI API](https://openai.com/blog/function-calling-and-other-api-updates)):
+An API request to LLMs should look like this [(Example from OpenAI API)](https://openai.com/blog/function-calling-and-other-api-updates):
 ```json
 {
   "messages": [

@@ -36,7 +36,7 @@ An API request to LLMs should look like this [(Example from OpenAI API)](https:/
 
 ### LLM Prompt
 
-Prompt to be input to the LLM as defined on (OpenAI Github ChatML file)[https://github.com/openai/openai-python/blob/main/chatml.md] on (ChatML.md):
+Prompt to be input to the LLM as defined on [OpenAI Github ChatML file](https://github.com/openai/openai-python/blob/main/chatml.md) file (ChatML.md):
 
 ```
 <|im_start|>system

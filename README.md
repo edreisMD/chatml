@@ -4,7 +4,7 @@ Chat Markup Language is an structured "API" interface between software applicati
 
 This repository aims to b uild an easy implementation of Chat Markup Language (as defined by OpenAI).
 
-# API Request
+### API Request
 An API request to LLMs should look like this ([Example from OpenAI API](https://openai.com/blog/function-calling-and-other-api-updates)):
 ```json
 {
@@ -34,7 +34,7 @@ An API request to LLMs should look like this ([Example from OpenAI API](https://
 }
 ```
 
-# LLM Prompt
+### LLM Prompt
 
 Prompt to be input to the LLM as defined on (OpenAI Github ChatML file)[https://github.com/openai/openai-python/blob/main/chatml.md] on (ChatML.md):
 
@@ -67,7 +67,7 @@ This is another way to structure the input, but I didn't really understand if th
 ]
 ```
 
-# API Response
+### API Response
 An API request to LLMs should look like this ([Example from OpenAI API](https://openai.com/blog/function-calling-and-other-api-updates))
 ```json
 {
@@ -104,6 +104,6 @@ Example response with function call:
 
 **Module to add more information to the Response (Similar to OpenAI standards)**
 
-# Best practices
+### Best practices
 - A message should only be inputed to a model if it finishes by <|im_start|>the_desired_role (???)
   

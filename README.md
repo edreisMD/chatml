@@ -1,4 +1,4 @@
-# Open Chat Markup Language for LLMs - Python Implementation
+# Chat Markup Language for LLMs - Python Implementation
 
 Chat Markup Language is an structured "API" interface between software applications and LLM plain text prompts. It is widely used by applications on the OpenAI ChatGPT API, but it isn't yet addopted by all models (either open or closed-source).
 
